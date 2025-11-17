@@ -1,0 +1,16 @@
+{
+  "common": {
+    "workDayCounter": "Počet pracovních dní v měsíci"
+  },
+  "date": {
+    "date": "Datum",
+    "workDays": "Pracovní dny",
+    "holidays": "Státní svátky",
+    "holidaysList": "Seznam státních svátků",
+    "today": "Aktální měsíc",
+    "tooltips": {
+      "previousMonth": "Předchozí měsíc",
+      "nextMonth": "Následující měsíc"
+    }
+  }
+}
