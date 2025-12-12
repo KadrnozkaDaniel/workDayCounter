@@ -36,12 +36,14 @@ const Container = styled('div')(({ theme }) => ({
 }));
 
 const Wrapper = styled(Paper)(({ theme }) => ({
+  minHeight: '386px',
   backdropFilter: 'blur(8px)',
   background: alpha(theme.palette.background.paper, 0.7),
   border: `1px solid ${alpha('#fff', 0.06)}`,
   boxShadow: `0 10px 30px ${alpha('#000', 0.4)}`,
   padding: theme.spacing(6),
   [theme.breakpoints.down('sm')]: {
+    minHeight: '582px',
     padding: theme.spacing(3),
     margin: theme.spacing(2),
     width: '100%',
